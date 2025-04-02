@@ -15,7 +15,8 @@ The RDTech (RuiDeng) [UM24C](https://www.aliexpress.com/item/RD-UM24-UM24C-for-A
 
 ## Setup
 
-rdumtool requires Python 3, and [PyBluez](https://pypi.org/project/PyBluez/) and/or [pyserial](https://pypi.org/project/pyserial/) modules.  Installation varies by operating system, but on Debian/Ubuntu, these are available via the python3-pybluez and python3-serial packages.
+rdumtool requires Python 3, and [PyBluez](https://pypi.org/project/PyBluez/) and/or [pyserial](https://pypi.org/project/pyserial/) modules.  Installation varies by operating system, but on Debian/Ubuntu, these are available via the python3-bluez and python3-serial packages.
+Also install python3-setuptools (at least at Kubuntu noble 24.4)
 
 To install rdumtool:
 
